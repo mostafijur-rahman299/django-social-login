@@ -79,6 +79,7 @@ AUTHENTICATION_BACKENDS = (
     'social_core.backends.github.GithubOAuth2',
     'social_core.backends.twitter.TwitterOAuth',
     'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.instagram.InstagramOAuth2',
 
     'django.contrib.auth.backends.ModelBackend',
 )
@@ -163,6 +164,6 @@ SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [                 # add this
 # instragram
 
 SOCIAL_AUTH_INSTAGRAM_KEY = '3090c940752d494688a599d46a2b3213'         #Client ID
-SOCIAL_AUTH_INSTAGRAM_SECRET = '15ded132e3a342809807f8dfef8e07cc '  #Client SECRET
+SOCIAL_AUTH_INSTAGRAM_SECRET = '15ded132e3a342809807f8dfef8e07cc'  #Client SECRET
 SOCIAL_AUTH_INSTAGRAM_EXTRA_DATA = [         ('user', 'user'),
     ]
